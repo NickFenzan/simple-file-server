@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Athena Uploads</h1>
+{{message}}
+<form method="post"  enctype= "multipart/form-data">
+  {{ form_widget(form) }}
+  <input type="submit" name="Upload File" />
+</form>
+{% endblock %}

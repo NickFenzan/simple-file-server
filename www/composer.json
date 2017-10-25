@@ -1,0 +1,20 @@
+{
+    "name": "mvnfenzan/simple-file-server",
+    "description": "Simple file server to hold CSV uploads for Data Integration",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nick Fenzan",
+            "email": "nickf@millervein.com"
+        }
+    ],
+    "require": {
+      "silex/silex": "~2.0",
+        "twig/twig": "^2.4",
+        "symfony/form": "^3.3",
+        "symfony/validator": "^3.3",
+        "symfony/config": "^3.3",
+        "symfony/translation": "^3.3",
+        "symfony/twig-bridge": "^3.3"
+    }
+}
